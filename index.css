@@ -1,0 +1,62 @@
+html{
+    display: flex;
+    justify-content: center;
+    background-color: #fbf2ea;
+}
+*{
+    font-family: "Stoke", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h1{
+    display: flex;
+    align-self: center;
+    font-weight: bolder;
+    font-size: 50px;
+    color: black;
+}
+.blog-post{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 600px;
+    background: #92d3ed;
+    border-radius: 10px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 18px;
+    margin: 20px;
+    height: 550px;
+}
+input, textarea{
+    font-size: 16px;
+}
+button{
+    border: none;
+    background-color: #4bc14b;
+    border-radius: 10px;
+    height: 40px;
+    font-weight: bolder;
+    margin-top: 40px;
+}
+button:hover{
+    cursor: pointer;
+}
+.outputs div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 20px;
+    color: #616161;
+}
+.outputs div p:first-of-type{
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
